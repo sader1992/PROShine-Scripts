@@ -5,7 +5,7 @@ author = "sader fawall"
 description = [[Start anywhere between Cinnabar Island and Cinnabar mansion 3.]]
 
 function onPathAction()
-	if getUsablePokemonCount() > 2 then
+	if getUsablePokemonCount() >= 1 then
 		if getMapName() == "Pokecenter Cinnabar" then
 			moveToMap("Cinnabar Island")
 		elseif getMapName() == "Cinnabar Island" then

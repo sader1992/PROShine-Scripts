@@ -5,7 +5,7 @@ author = "sader fawall"
 description = [[Start anywhere between Celadon City and Route 7.]]
 
 function onPathAction()
-	if getUsablePokemonCount() > 2 then
+	if getUsablePokemonCount() >= 1 then
 		if getMapName() == "Pokecenter Celadon" then
 			moveToMap("Celadon City")
 		elseif getMapName() == "Celadon City" then
