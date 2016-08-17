@@ -5,7 +5,7 @@ author = "sader fawall"
 description = [[Start anywhere in Vermilion City.]]
 
 function onPathAction()
-	if isPokemonUsable(1) then
+	if getUsablePokemonCount() > 2 then
 		if getMapName() == "Pokecenter Vermilion" then
 			moveToMap("Vermilion City")
 		elseif getMapName() == "Vermilion City" then
