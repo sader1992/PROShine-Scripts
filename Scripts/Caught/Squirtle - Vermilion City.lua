@@ -1,7 +1,7 @@
--- Copyright sader fawall sader1992@hotmail.com
+-- Copyright sader fawall
 
-name = "Charmander - Cinnabar mansion 3"
-author = "sader1992"
+name = "Squirtle - Vermilion City"
+author = "sader fawall"
 description = [[Start anywhere in Vermilion City.]]
 
 function onPathAction()

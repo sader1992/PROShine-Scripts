@@ -1,7 +1,7 @@
--- Copyright sader fawall sader1992@hotmail.com
+-- Copyright sader fawall
 
-name = "Charmander - Cinnabar mansion 3"
-author = "sader1992"
+name = "Murkrow - Route7"
+author = "sader fawall"
 description = [[Start anywhere between Celadon City and Route 7.]]
 
 function onPathAction()
