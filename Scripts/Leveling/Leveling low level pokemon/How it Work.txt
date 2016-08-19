@@ -1,0 +1,7 @@
+put the low level pokemon as the first pokemon
+
+put the 5 other pokemons high level pokemons
+
+this usefull for leveling low level pokemon as level -40 in like Mt. Silver
+
+on the battle start it call the first pokemon then it chg it for high level pokemon and they both gain EXP
