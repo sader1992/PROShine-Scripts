@@ -1,6 +1,6 @@
 -- Copyright sader fawall
 
-name = "Mt. Silver 1F"
+name = "Mt. Silver 1F [Low]"
 author = "sader fawall"
 description = [[This level only the first Low level pokemon (read how it work.txt) ,Start anywhere in Mt. Silver Exterior.]]
 

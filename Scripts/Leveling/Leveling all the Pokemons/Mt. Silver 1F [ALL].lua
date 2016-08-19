@@ -1,6 +1,6 @@
 -- Copyright sader fawall
 
-name = "Mt. Silver 1F"
+name = "Mt. Silver 1F [ALL]"
 author = "sader fawall"
 description = [[Start anywhere in Mt. Silver Exterior.]]
 
