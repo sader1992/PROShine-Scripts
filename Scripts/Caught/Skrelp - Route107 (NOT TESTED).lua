@@ -28,6 +28,8 @@ function onBattleAction()
 	if isWildBattle() and ( isOpponentShiny() or getOpponentName() == "Skrelp")then
 		if useItem("Ultra Ball") or useItem("Great Ball") or useItem("Pokeball") then
 			return
+		else
+		return sendUsablePokemon() or sendAnyPokemon()
 		end
 	else
 		return run() or attack() or sendUsablePokemon() or sendAnyPokemon()
