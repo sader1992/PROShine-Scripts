@@ -37,7 +37,7 @@ function onBattleAction()
 		if useItem("Ultra Ball") or useItem("Great Ball") or useItem("Pokeball") then
 			return
 		else
-		return sendUsablePokemon() or sendAnyPokemon()
+		return sendUsablePokemon() or sendAnyPokemon() or attack() or run()
 		end
 	else
 		return run() or attack() or sendUsablePokemon() or sendAnyPokemon()
